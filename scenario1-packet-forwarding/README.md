@@ -120,6 +120,7 @@ The result was:
 
 The code 0800 shows the payload of the packet is IP.
 
+# Complementary Points
 * There is already **ip cef** cmd on **router \& L3 sw** in GNS3 \& PNETLAB. (**sh ip cef**)
 * There is already **ip routing** cmd on **L3 sw** in GNS3 \& PNETLAB.
 * For excluding interfaces which no ip is assigned to in show ip interface brief: sh ip int br **|** **exc una**
